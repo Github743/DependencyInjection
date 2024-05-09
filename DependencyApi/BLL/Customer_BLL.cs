@@ -1,4 +1,5 @@
 ﻿using DependencyApi.DAL;
+using DependencyApi.Models.Database;
 using System.Threading.Tasks;
 
 namespace DependencyApi.BLL

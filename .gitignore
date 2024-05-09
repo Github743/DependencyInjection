@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/DependencyApi/FileContentIndex
+/DependencyApi/bin/DependencyApi.dll
+/DependencyApi/bin/DependencyApi.pdb
+/DependencyApi/obj/Debug/DependencyApi.csproj.AssemblyReference.cache
+/DependencyApi/obj/Debug/DependencyApi.csproj.CoreCompileInputs.cache
+/DependencyApi/obj/Debug/DependencyApi.csproj.FileListAbsolute.txt
+/DependencyApi/obj/Debug/DependencyApi.dll
+/DependencyApi/obj/Debug/DependencyApi.pdb
+/DependencyApi/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
