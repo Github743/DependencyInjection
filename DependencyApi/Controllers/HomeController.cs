@@ -18,8 +18,6 @@ namespace DependencyApi.Controllers
         [HttpGet]
         public async Task<IHttpActionResult> GetCountryNameAsync(int countryId)
         {
-            
-            //_bMAModel.Database.Connection.ConnectionString = "data source=.;initial catalog=BMA_CMS_TEST;integrated security=True;trustservercertificate=True;MultipleActiveResultSets=True;App=EntityFramework";
             var response = await Task.Run(() => _Customer_BLL.GetCountryNameAsync(countryId));
             return Ok(response);
         }

@@ -9,6 +9,8 @@ namespace DependencyApi.Models.Database
         {
         }
 
+        public BMAModel(string connectionString) : base(connectionString) { }
+
         public virtual DbSet<Country> Countries { get; set; }
         public virtual DbSet<Personnel> Personnels { get; set; }
 
